@@ -3,7 +3,6 @@
 ## Task
 
 - 回傳以下未開立的資料欄位結果: id，invoice_number，track，year，month，begin_number，end_number
-- 
 ## Final result
 線上模擬query: https://onecompiler.com/mysql/43cqycdhz
 ![final_result](https://github.com/Shih-Lun-Huang/sql_test/blob/main/img/%E6%88%AA%E5%9C%96%202025-03-30%2017.08.32.png)
