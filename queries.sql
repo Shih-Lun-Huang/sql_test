@@ -4,7 +4,7 @@ CREATE TABLE invoice_books (
     track VARCHAR(2) NOT NULL,              -- 發票字軌（AA、AB、AC）
     begin_number INT NOT NULL,              -- 發票起始號碼
     end_number INT NOT NULL,                -- 發票結束號碼
-    year INT NOT NULL,                      -- 發票年份（民國113年 → 2024）
+    year INT NOT NULL,                      -- 發票年份（民國113年 > 2024）
     month INT NOT NULL,                     -- 發票月份（03）
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,  
     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
